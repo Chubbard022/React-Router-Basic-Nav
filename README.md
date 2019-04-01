@@ -15,22 +15,33 @@ Topics:
 ### Initialize Project
 
 * cd into the repository and run `yarn install`
+DONE
 * run `yarn start`
+DONE
 
 ### Steps for implementing React Router
 
 * You'll notice we've already installed react-router-dom for you.
+DONE
 * `import` your BrowserRouter as Router inside your `index.js` file.
+DONE
 * Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
+DONE
 * open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
+DONE
 * inside the `REACT DEV TOOLS` expand `<BrowserRouter>` and highlight `<Router>` and notice that here is a `"history"` object on props and a `"match"` object on its state. These two objects are how all of our Router is going to work. 
+DONE
 
 ### Steps for "Declaring" your routes
 
 * Inside of your `App.js` file `import { Route } from 'react-router-dom';`
+DONE
 * This is where we're going to declare and specify our router.
+DONE
 * Create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
+DONE
 * Be sure to incluce the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components.
+DONE
 * You should now be able to type `/`, `/about`, `/contact` after `localhost:PORT/` to see what's a
 
 ### Steps for setting up your Navigation
